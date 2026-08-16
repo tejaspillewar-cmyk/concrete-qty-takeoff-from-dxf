@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+.venv
+*.log
+.DS_Store
+concrete-qty-takeoff-from-dxf/
+sample qty takeoff/
+*.xlsx
+*.png
