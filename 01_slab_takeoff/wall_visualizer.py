@@ -49,7 +49,7 @@ def render_wall_map(report: WallReport, output_path: str, is_structural: bool, d
             cx, cy,
             w.name,
             fontsize=fontsize, fontweight="bold", color=LABEL_COLOR, ha="center", va="center",
-            bbox=dict(boxstyle="round,pad=0.2", facecolor=color, edgecolor="none", alpha=0.7)
+            bbox=dict(boxstyle="round,pad=0.2", facecolor="#0d1117", edgecolor=color, linewidth=0.8, alpha=0.85)
         )
 
     if all_x and all_y:
